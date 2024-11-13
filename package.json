@@ -1,0 +1,31 @@
+{
+  "name": "shopify-react-native-performance-expo-plugin",
+  "version": "1.0.0",
+  "description": "Expo plugin to setup the native code for the @shopify/react-native-performance in expo managed workflow",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "test": "expo-module test",
+    "lint": "expo-module lint",
+    "typecheck": "expo-module tsc",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roni-castro/shopify-react-native-performance-expo-plugin.git"
+  },
+  "author": "Roni Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roni-castro/shopify-react-native-performance-expo-plugin/issues"
+  },
+  "homepage": "https://github.com/roni-castro/shopify-react-native-performance-expo-plugin#readme",
+  "devDependencies": {
+    "expo-module-scripts": "^4.0.2"
+  }
+}
