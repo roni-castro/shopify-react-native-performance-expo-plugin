@@ -1,0 +1,3 @@
+- AppDelegate: https://github.com/expo/expo/blob/main/templates/expo-template-bare-minimum/ios/HelloWorld/AppDelegate.mm
+- MainApplication: https://github.com/expo/expo/blob/main/templates/expo-template-bare-minimum/android/app/src/main/java/com/helloworld/MainApplication.kt
+- MainApplication.java: https://react-native-community.github.io/upgrade-helper/?from=0.70.0&to=0.76.1
