@@ -1,6 +1,6 @@
 {
   "name": "shopify-react-native-performance-expo-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Expo plugin to setup the native code for the @shopify/react-native-performance in expo managed workflow",
   "main": "build/index.js",
   "types": "build/index.d.ts",
