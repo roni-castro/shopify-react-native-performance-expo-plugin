@@ -15,6 +15,9 @@
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/roni-castro/shopify-react-native-performance-expo-plugin.git"
@@ -26,6 +29,7 @@
   },
   "homepage": "https://github.com/roni-castro/shopify-react-native-performance-expo-plugin#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.27.9",
     "expo-module-scripts": "^4.0.2"
   }
 }
