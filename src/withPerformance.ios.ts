@@ -15,6 +15,11 @@ export const withIOSAppDelegateSetup: ConfigPlugin = (expoConfig) => {
   return withAppDelegate(expoConfig, (iosConfig) => {
     checkAppDelegateIsObjectiveC(iosConfig.modResults.language);
 
+    const newContents = addShopifyPerformanceData(
+      iosConfig.modResults.contents,
+    );
+    iosConfig.modResults.contents = newContents;
+
     return iosConfig;
   });
 };
